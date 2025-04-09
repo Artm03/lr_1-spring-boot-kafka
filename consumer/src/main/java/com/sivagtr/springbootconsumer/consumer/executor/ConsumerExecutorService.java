@@ -41,7 +41,7 @@ public class ConsumerExecutorService {
 		properties.put("bootstrap.servers", config.getKafkaServer());
 		properties.put("key.deserializer", config.getKey());
 		properties.put("value.deserializer", config.getMsgValue());
-		properties.put("group.id", "1");
+		properties.put("group.id", "ArtyomGavrilov");
 
 		properties.put("sasl.mechanism", "PLAIN");
 		properties.put("security.protocol", "SASL_SSL");
